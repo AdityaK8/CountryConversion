@@ -31,25 +31,5 @@ public class MyCountry extends HttpServlet{
     o.println("<h3>Region Name : "+c.getTimeZone().getID()+"<br></h3>");
     o.println("<h3>Local Name : "+c.getTimeZone().getDisplayName()+"<br></h3>");
     o.println("<h3>Time : "+time+"</h3>");
-        
-        
-        
-        
-//        res.setContentType("text/html");
-//        String s=req.getParameter("region");
-//        PrintWriter o = res.getWriter();
-//        
-//        o.println(s+"\n");
-//        
-//       String a = "dd-M-yyyy";
-//       SimpleDateFormat d = new SimpleDateFormat(a);
-//        Calendar c = new GregorianCalendar();
-//       Date dt=new Date();
-//        TimeZone z = TimeZone.getTimeZone(s);
-//        d.setTimeZone(z);
-//        c.setTimeZone(z);
-//        c.setTime(dt);
-//       
-//       o.println(z);
     }
 }
